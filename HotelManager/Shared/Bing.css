@@ -1,0 +1,142 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#pnlBgImg {
+    background-image: url(../Images/Background/default.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#divMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#divMenu li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#divMenu li ul {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#divSearch {
+    top: 20%;
+    left: 88px;
+    position: absolute;
+    margin: 0;
+}
+
+#divLogo {
+    margin-top: -1px;
+    float: left;
+    text-indent: -20em;
+    background-position: 0 0;
+    margin: -7px 21px 0 0;
+    width: 132px;
+    height: 52px;
+    background: transparent url(/Images/hpc26_2x.png) no-repeat;
+    background-size: 241px 224px;
+}
+
+#divSearchBox {
+    display: inline-block;
+}
+
+#divSearchBoxForm {
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    position: relative;
+    display: inline-block;
+    font: 18px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif;
+}
+
+#inputSearch {
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 5px;
+    padding-right: 25px;
+    width: 557px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 6px 1px 0 10px;
+    border: 0;
+    border-color: #ccc;
+    max-height: 30px;
+    outline: none;
+    -webkit-appearance: none;
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+}
+
+#inputSearchIcon {
+    height: 51px;
+    width: 51px;
+    border-width: 11px;
+    background-image: url(/Images/hpc26_2x.png);
+    background-size: 241px 224px;
+    border: 11px solid transparent;
+    background: transparent url(/Images/hpc26.png) no-repeat;
+    background-position: -169px -63px;
+    overflow: hidden;
+    vertical-align: top;
+    text-indent: -99em;
+    position: static;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    font-size: 100%;
+    box-sizing:border-box;
+    padding: 1px 6px;
+}
+
+#divBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 88px;
+    padding-bottom: 88px;
+    box-sizing: border-box;
+}
+
+
+#btnPrevImage {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: transparent url(/Images/hpc26_2x.png) no-repeat;
+    background-size: 241px 224px;
+    background-position-x: -123px;
+    background-position-y: -57px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#btnNextImage {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: transparent url(/Images/hpc26_2x.png) no-repeat;
+    background-size: 241px 224px;
+    background-position-x: -84px;
+    background-position-y: -57px;
+    overflow: hidden;
+    cursor: pointer;
+}
